@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    class Phone{
+      set price(newValue){
+        console.log('价格被修改了')
+      }
+      get price(){
+        console.log('价格被获取了')
+        return '1000'
+      }
+    }
+    const p1 = new Phone()
+    p1.price = 'free'
+    p1.price
+    console.log(p1)
+  </script>
+</body>
+</html>
